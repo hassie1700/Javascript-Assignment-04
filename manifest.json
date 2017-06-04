@@ -1,0 +1,26 @@
+
+// JSON Document
+
+
+{
+	"manifest_version": 2,
+	
+	 "name": "Hassan Fahad's Google Chrome Extension",
+  "description": "This extension enables the user's page to redirect to the Makerere University Website",
+  "version": "1.0",
+	
+	"background": {
+  "scripts": ["background.js"]
+},
+
+  "browser_action": {
+    "default_icon": "icon.png"
+	 
+    
+  },
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ]
+
+	
+}
